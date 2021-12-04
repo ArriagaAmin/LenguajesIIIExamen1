@@ -1,0 +1,11 @@
+INIT: goif a < a A1 
+    advance a 
+    advance b 
+    advance c
+    goto END 
+A1: a := 0 + 0
+    c := 0 + 1
+END: a := a / a
+    goto INIT
+    c := c / c
+    c := c + 1

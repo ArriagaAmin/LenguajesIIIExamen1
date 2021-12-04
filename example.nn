@@ -1,0 +1,6 @@
+    advance b
+    goif b < c then
+    a := b - c
+    goto end
+then: a := b + c
+end: c := b / c
