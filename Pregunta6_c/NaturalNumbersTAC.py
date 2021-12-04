@@ -590,9 +590,9 @@ class FlowGraph:
         string += f'       {line_number}|  ' + ' '.join(line) + '\n'
 
       if len(self.V[v].OUT) > 0:
-        string += f'\n    OUT: {self.V[v].OUT}\n\n'
+        string += f'    OUT: {self.V[v].OUT}\n\n'
       else:
-        string += '\n    OUT: {}\n\n'
+        string += '    OUT: {}\n\n'
 
     return string
 
